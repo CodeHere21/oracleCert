@@ -1,1 +1,3 @@
- float value = 102.0; because its double
+ float value = 102.0; //because its double
+ float value1 = (1f * 0.0);//does NOT compile, compiler says cast to float:  float value1 = (float) (1f * 0.0);
+ float value1 = 1f * (boolean)0;//does NOT compile, cannot cast int to boolean
