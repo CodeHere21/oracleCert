@@ -1,3 +1,14 @@
- float value = 102.0; //because its double
- float value1 = (1f * 0.0);//does NOT compile, compiler says cast to float:  float value1 = (float) (1f * 0.0);
- float value1 = 1f * (boolean)0;//does NOT compile, cannot cast int to boolean
+1. float value = 102.0; //because its double
+2. float value1 = (1f * 0.0);//does NOT compile, compiler says cast to float:  float value1 = (float) (1f * 0.0);
+3. float value1 = 1f * (boolean)0;//does NOT compile, cannot cast int to boolean
+4. /*
+* /* ferret */
+*/
+Does not compile, everything from the first /* to the first */ is part of the comment, which mean compiler sees
+something like /* */ */. there is an extra */
+5. public class Animal{
+    private String name;
+    }
+    class Animal2 {
+    }
+I can have two classes in the same file. However, public class needs to match the filename.
