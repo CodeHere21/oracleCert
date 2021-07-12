@@ -18,4 +18,17 @@ I can have two classes in the same file. However, public class needs to match th
 9. 0b is the prefix for a binary value and is correct. 0X is the prefix for a hexadecimal value. This value CAN
 be assigned to many primitive types, including int and double.
 10. int amount = 9L INCORRECT!! Correct way is: long amount=9L.
-
+11. System.gc() suggests that Java runs the garbage collector. HOWEVER, Java is free to ignore it the request.
+finalize() runs if an object attempts to be garbage collected.
+12. Student lenka = new Student();-lenka is a reference to an object.
+13. int i1=1_234; Correct
+    double d4=1_234.0 Correct. Underscores are allowed as long as they are directly between two other digits.
+14. Given the following class, which of the following calls print out Blue Jay?
+    public class BirdDisplay {
+    public static void main(String[] name){
+    System.out.println(name[1]);
+    }
+    }
+    Answer: java BirdDisplay Sparrow "Blue Jay"
+15. public static void main (String abc[])-correct, the array operator may appear after the variable name.
+16. !!! public static void main(String[] args) is the canonical main() method I NEED TO MEMORIZE IT!!!
