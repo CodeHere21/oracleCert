@@ -15,6 +15,9 @@ I can have two classes in the same file. However, public class needs to match th
 6. I can use Public as identifier, because java is case sensitive
 7. Java does not have operator overloading or pointers.
 8. Javac compiles .java file into .class file.
+$ javac Zoo.java
+$ java Zoo Zoo
+if I dont pass enough arguments, java prints out an exception.
 9. 0b is the prefix for a binary value and is correct. 0X is the prefix for a hexadecimal value. This value CAN
 be assigned to many primitive types, including int and double.
 10. int amount = 9L INCORRECT!! Correct way is: long amount=9L.
@@ -32,3 +35,4 @@ finalize() runs if an object attempts to be garbage collected.
     Answer: java BirdDisplay Sparrow "Blue Jay"
 15. public static void main (String abc[])-correct, the array operator may appear after the variable name.
 16. !!! public static void main(String[] args) is the canonical main() method I NEED TO MEMORIZE IT!!!
+17. everything in java.lang is automatically considered to be imported.
