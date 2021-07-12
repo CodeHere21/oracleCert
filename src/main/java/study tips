@@ -12,3 +12,6 @@ something like /* */ */. there is an extra */
     class Animal2 {
     }
 I can have two classes in the same file. However, public class needs to match the filename.
+6. I can use Public as identifier, because java is case sensitive
+7. Java does not have operator overloading or pointers.
+
