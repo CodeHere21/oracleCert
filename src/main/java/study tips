@@ -36,3 +36,40 @@ finalize() runs if an object attempts to be garbage collected.
 15. public static void main (String abc[])-correct, the array operator may appear after the variable name.
 16. !!! public static void main(String[] args) is the canonical main() method I NEED TO MEMORIZE IT!!!
 17. everything in java.lang is automatically considered to be imported.
+18. java NIO-Java.nio package ()new Input/Output) API defines bufferes, which are containers for data, and other
+structures and mechanisms to support buffers.
+Only those imports are correct:
+import java.nio.file.*;
+import java.nio.file.Files;
+import java.nio.file.Paths.
+
+INCORRECT:
+import java.nio.*; //wildcard only matches class names, and not "file.Files"
+import java.nio.*.*; // I can only have one wildcard and it must be at the end
+import java.nio.files.Paths.*;//I cannot import methods, only classes!
+19. One of the reasons for using packages is so that class names dont have to be unique across all of Java.
+for Date class:
+import java.util.*;
+import java.sql.*;    // DOES NOT COMPILE
+When the class is found in multiple packages, Java gives you the compiler error:
+the type is ambiguous.
+
+import java.util.Date;
+import java.sql.*; //   IT WORKS!
+
+import java.util.Date;
+import java.sql.Date; // DOES NOT COMPILE!
+20. In java I dont need to pass extention, when running a program.
+21. 6: public void method(ArrayList list) {
+    7: if (list.isEmpty()) { System.out.println("e");
+    8: } else { System.out.println("n");
+    9: } }
+    // CODE COMPILES. IT STARTS FROM LINE 6, AND I CAN ASSUME IMPORTS ARE THERE IN LINES 1-5.
+
+   1: public class LineNumbers {
+   2: public void method(ArrayList list) {
+   3: if (list.isEmpty()) { System.out.println("e");
+   4: } else { System.out.println("n");
+   5: } } }
+   // CODE DOES NOT COMPILE. IT STARTS ON LINE 1 AND THERE ARE NO IMPORTS!!
+22.
