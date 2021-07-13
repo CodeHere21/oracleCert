@@ -88,7 +88,25 @@ char=2 bytes, stores a single character/letter or ASCII values
     4: byte sum = (byte)a+b;
     5: System.println(sum); // DOES NOT COMPILE BECAUSE OF LINE 4
 
-the case operator has the highest precedence so it is evaluated first,casting a to byte. Then the addition is
+the cast operator has the highest precedence so it is evaluated first,casting a to byte. Then the addition is
 evaluated, causing both a and b to be promoted to int values. The value 90 is an int and cannot be assigned
 to the byte sum without an explicit cast. to make code work, I could put (a+b).
+****************************************************************************
+****************************************************************************
+****************************************************************************
+27. ASK CHRIS!
+ 	What is the output of the following code snippet?
+3: int x1 = 50, x2 = 75;
+4: boolean b = x1 >= x2;
+5: if(b = true) System.out.println("Success");
+6: else System.out.println("Failure");
 
+Why A.Success??
+B.Failure
+C. The code will not compile because of line 4.
+D. The code will not compile because of line 5.
+The code compiles successfully, so options C and D are incorrect. The value of b after line 4 is false.
+However, the if-then statement on line 5 contains an assignment, not a comparison.
+The variable b is assigned true on line 3, and the assignment operator returns true, so line 5 executes
+and displays Success, so the answer is option A.
+28. 2%2=0
