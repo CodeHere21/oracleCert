@@ -73,3 +73,22 @@ import java.sql.Date; // DOES NOT COMPILE!
    5: } } }
    // CODE DOES NOT COMPILE. IT STARTS ON LINE 1 AND THERE ARE NO IMPORTS!!
 22. The ternary operator permitted to have expressions that dont have matching types.
+23. Primitive data types:
+byte=1 byte, stores whole numbers from -128 to 127
+short=2 bytes, stores whole numbers from -32,768 to 32,767
+int=4 bytes, stores whole numbers from -2,147,483,648 to 2,147,483,647
+long=8 bytes, stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+float=4 bytes, stores fractional numbers. Sufficient for storing 6 to 7 decimal digits
+double=8 bytes, stores fractional numbers. Sufficient for storing 15 decimal digits.
+boolean=1 bit, stores true or false values
+char=2 bytes, stores a single character/letter or ASCII values
+24. I CAN use 'break' in for loop.
+25. two else statements cannot be chained together without addition if-then statements.
+26. 3: byte a=40, b=50;
+    4: byte sum = (byte)a+b;
+    5: System.println(sum); // DOES NOT COMPILE BECAUSE OF LINE 4
+
+the case operator has the highest precedence so it is evaluated first,casting a to byte. Then the addition is
+evaluated, causing both a and b to be promoted to int values. The value 90 is an int and cannot be assigned
+to the byte sum without an explicit cast. to make code work, I could put (a+b).
+
