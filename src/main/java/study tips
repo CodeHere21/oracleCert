@@ -94,7 +94,7 @@ to the byte sum without an explicit cast. to make code work, I could put (a+b).
 ****************************************************************************
 ****************************************************************************
 ****************************************************************************
-27. ASK CHRIS!
+27. ASK KRIS!
  	What is the output of the following code snippet?
 3: int x1 = 50, x2 = 75;
 4: boolean b = x1 >= x2;
