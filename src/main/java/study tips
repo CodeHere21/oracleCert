@@ -119,3 +119,11 @@ and displays Success, so the answer is option A.
             System.out.println(message+","+x);
 
             answer is "less than, 5"
+30. Numeric Promotion Rules:
+    * if two values with different data types, Java will automatically promote one of the values to the larger.
+    * if one integral and the other is floating, Java will automatically promote to integral.
+    * smaller data types byte, short, char are first promoted to int anytime they are used with Java binary
+    arithmetic operator, even if neither of the operands is int.
+    * after all promotion has occured, result will have the same data type as its promoted operands.
+
+
