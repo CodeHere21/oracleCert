@@ -125,5 +125,20 @@ and displays Success, so the answer is option A.
     * smaller data types byte, short, char are first promoted to int anytime they are used with Java binary
     arithmetic operator, even if neither of the operands is int.
     * after all promotion has occured, result will have the same data type as its promoted operands.
+31. int counter = 0;
+    System.out.println(counter--); //Outputs 0
+32. int x = 3;
+    int y = ++x * 5 / x-- + --x;
+    System.out.println(x);
+    System.out.println(y);
+if increment ahead of value, increment first, if after increment after
+++x I add +1 first and then *5. So expression look like:
+y = 4 * 5 / 4 + --x; x=3
+y = 20 / 4 + 2= 7; x=2
+33. int x=1.0; // DOES NOT COMPILE, because .0 makes compiler to treat it as a double
+    short y=1921222; // DOES NOT COMPILE, outside of range for short
+    int z = 9f; // DOES NOT COMPILE, f instructs compiler to treat it as floating-point value
+    long t=19230139810323; // DOES NOT COMPILE, needs L in the end.
+
 
 
