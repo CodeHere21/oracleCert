@@ -1,8 +1,12 @@
 public class TestClass {
     public static void main (String[] args) {
        // System.out.println("Hello World");
-        BankAccount lenaAccount= new SavingsAccount(100);
-
-        System.out.println(lenaAccount.withdraw(15));
+        int x=0;
+        while ( ++x < 5 )
+        {
+            x+=1;
+        }
+        String message = x > 5 ? "Greater than" : "Less Than";
+        System.out.println(message+","+x);
     }
 }

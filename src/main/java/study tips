@@ -36,7 +36,7 @@ finalize() runs if an object attempts to be garbage collected.
 15. public static void main (String abc[])-correct, the array operator may appear after the variable name.
 16. !!! public static void main(String[] args) is the canonical main() method I NEED TO MEMORIZE IT!!!
 17. everything in java.lang is automatically considered to be imported.
-18. java NIO-Java.nio package ()new Input/Output) API defines bufferes, which are containers for data, and other
+18. java NIO-Java.nio package ()new Input/Output) API defines buffers, which are containers for data, and other
 structures and mechanisms to support buffers.
 Only those imports are correct:
 import java.nio.file.*;
@@ -82,7 +82,7 @@ float=4 bytes, stores fractional numbers. Sufficient for storing 6 to 7 decimal 
 double=8 bytes, stores fractional numbers. Sufficient for storing 15 decimal digits.
 boolean=1 bit, stores true or false values
 char=2 bytes, stores a single character/letter or ASCII values
-24. I CAN use 'break' in for loop.
+24. I CAN use 'break' in 'for' loop.
 25. two else statements cannot be chained together without addition if-then statements.
 26. 3: byte a=40, b=50;
     4: byte sum = (byte)a+b;
@@ -110,3 +110,12 @@ However, the if-then statement on line 5 contains an assignment, not a compariso
 The variable b is assigned true on line 3, and the assignment operator returns true, so line 5 executes
 and displays Success, so the answer is option A.
 28. 2%2=0
+29.         int x=0;
+            while ( ++x < 5 )
+            {
+                x+=1;
+            }
+            String message = x > 5 ? "Greater than" : "Less Than";
+            System.out.println(message+","+x);
+
+            answer is "less than, 5"
