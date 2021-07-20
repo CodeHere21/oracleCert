@@ -139,6 +139,9 @@ y = 20 / 4 + 2= 7; x=2
     short y=1921222; // DOES NOT COMPILE, outside of range for short
     int z = 9f; // DOES NOT COMPILE, f instructs compiler to treat it as floating-point value
     long t=19230139810323; // DOES NOT COMPILE, needs L in the end.
+34. a instanceof b is a relational operator. Examples of other relational operators are <, <=, >, >=;
+35. The short-circuit operators && and || are nearly identical to the logical operators.
+36. Variable can begin with a letter, dollar sign, or underscore;
 
 
 
