@@ -168,4 +168,10 @@ this.s=s;
 public String getS (){
 return s;
 }
-50.
+50.Calling Static Method:
+
+public class StaticMethod{
+public static void callMe() {}
+}
+
+Answer: StaticMethod.callMe();
