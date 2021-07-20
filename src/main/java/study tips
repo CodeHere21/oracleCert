@@ -160,3 +160,12 @@ reference separately.
 45. Seven parts of a method declaration:access modifiers, optional specifiers, return type, method name, parameter list, exception clause, method body;
 46. Vararg parameter must be the last parameter in a parameter list and only one is allowed per method;
 47. In an encapsulated class, instance variables are of PRIVATE scope, and getters/setters are of PUBLIC scope.
+48. Mutator method:
+public void setS (String s){
+this.s=s;
+}
+49. Accessor method:
+public String getS (){
+return s;
+}
+50.
