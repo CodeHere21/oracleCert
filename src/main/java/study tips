@@ -144,6 +144,7 @@ y = 20 / 4 + 2= 7; x=2
 36. Variable can begin with a letter, dollar sign, or underscore;
 37. As of Java 8, following data types are permitted for switch statement:
 byte, short, char, int, Enum, String, Byte, Short, Character, Integer;
+38.  System.out.println(1+2+"3"+4+5); // prints 3345
 
 
 
