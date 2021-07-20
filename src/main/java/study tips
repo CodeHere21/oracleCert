@@ -145,6 +145,14 @@ y = 20 / 4 + 2= 7; x=2
 37. As of Java 8, following data types are permitted for switch statement:
 byte, short, char, int, Enum, String, Byte, Short, Character, Integer;
 38.  System.out.println(1+2+"3"+4+5); // prints 3345
-
-
-
+39. String and StringBuffer are thread-safe;
+40. Java final:
+    * final variable cannot change the value;
+    * if any method final, I cannot override it;
+    * if any class as final, I cannot extend it;
+41. Constructor cannot be declared as final, because is never inherited.
+42. String s="hmm";
+s.string(1);
+System.out.println(s); // prints hmm because s is not stored anywhere, and strings are immutable
+43. Method chaining is the practice of calling different methods in a single line instead of calling different methods with the same object
+reference separately.
