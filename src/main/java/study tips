@@ -156,3 +156,5 @@ s.string(1);
 System.out.println(s); // prints hmm because s is not stored anywhere, and strings are immutable
 43. Method chaining is the practice of calling different methods in a single line instead of calling different methods with the same object
 reference separately.
+44. How many objects are created in String[] s = new String[5];// Just one. The references are all set to null by default;
+45. Seven parts of a method declaration:access modifiers, optional specifiers, return type, method name, parameter list, exception clause, method body;

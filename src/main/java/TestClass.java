@@ -9,6 +9,6 @@ public class TestClass {
 //        String message = x > 5 ? "Greater than" : "Less Than";
 //        System.out.println(message+","+x);
 
-        System.out.println(1+2+"3"+4+5);
+  //      System.out.println(1+2+"3"+4+5);
     }
 }
