@@ -180,3 +180,10 @@ Answer: StaticMethod.callMe();
 Whereas super is a keyword used to reference a member of the parent class.
 53.  The finalize method can be invoked at most once.
 54. The collection in a for loop array must be an array or an object that implements java.lang.iterable.
+55. int[] b, c[];//b is a one-dimensional array and c is a two-dimensional array.
+56. add()-method on an arraylist to insert an element after all current elements.
+57. set()-to replace the element at a given index with a different one.
+58. int to an Integer called Autoboxing.
+59. default constructor is only provided if none are coded.
+60. (a)->{return true;} is the SAME AS a->true;
+61.
