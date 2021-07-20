@@ -175,3 +175,8 @@ public static void callMe() {}
 }
 
 Answer: StaticMethod.callMe();
+51. Four types of members an interface may include: abstract methods, default methods, static methods, static final variables.
+52. The super() command calls the constructor of the parent class and is used in the first line of every child constructor.
+Whereas super is a keyword used to reference a member of the parent class.
+53.  The finalize method can be invoked at most once.
+54. The collection in a for loop array must be an array or an object that implements java.lang.iterable.
