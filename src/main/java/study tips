@@ -158,3 +158,4 @@ System.out.println(s); // prints hmm because s is not stored anywhere, and strin
 reference separately.
 44. How many objects are created in String[] s = new String[5];// Just one. The references are all set to null by default;
 45. Seven parts of a method declaration:access modifiers, optional specifiers, return type, method name, parameter list, exception clause, method body;
+46. Vararg parameter must be the last parameter in a parameter list and only one is allowed per method;
