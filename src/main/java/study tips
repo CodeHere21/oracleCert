@@ -186,4 +186,42 @@ Whereas super is a keyword used to reference a member of the parent class.
 58. int to an Integer called Autoboxing.
 59. default constructor is only provided if none are coded.
 60. (a)->{return true;} is the SAME AS a->true;
-61.
+61. Only nonfinal, nonstatic, and nonprivate are virtual methods in Java.
+62. System.out.println( ( y > 5 ) ? 21 : "Zebra"); // COMPILE
+int animal = (y<91) ? 9 : "Horse"; // DOES NOT COMPILE
+63. Data types supported by switch statements:
+int and Integer
+byte and Byte
+short and Short
+char and Char
+String
+enum
+64. ??
+private int getSortOrder(String firstName, final String lastName) {
+    String middleName = "Patricia";
+    final String suffix = "JR";
+    int id = 0;
+    switch(firstName) {
+    case "Test":
+    return 52;
+    case middleName: // DOES NOT COMPILE
+    id = 5;
+    break;
+    case suffix:
+    id = 0;
+    break;
+    case lastName: // DOES NOT COMPILE
+    id = 8;
+    break;
+    case 5: // DOES NOT COMPILE
+    id = 7;
+    break;
+    case 'J': // DOES NOT COMPILE
+    id = 10;
+    break;
+    case java.time.DayOfWeek.SUNDAY: // DOES NOT COMPILE
+    id=15;
+    break;
+    }
+    return id;
+    }
