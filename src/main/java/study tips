@@ -228,3 +228,20 @@ private int getSortOrder(String firstName, final String lastName) {
 65. A String concatenated with any other type gives a String!!!
 66. total += letters.substring(6, 5).length(); // Java does not allow the indexes to be specified in reverse order
 and the code throws a StringIndexOutOfBoundsException.
+67. The following two loops are equivalent:
+for (int value: values) {
+System.out.print(value+ ", ");
+}
+for (java.util.Iterator<Integer> i= values.iterator(); i.hasNext();){
+int value=i.next();
+System.out.print(value + ", ");
+}
+68. int x=20;
+while(x>0){
+do{
+x-=2;
+} while (x>5);
+x--;
+System.out.print(x+"\t");
+}
+OUTPUT: 3   0
