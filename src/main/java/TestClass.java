@@ -36,12 +36,39 @@ public class TestClass {
 //            x--;
 //            System.out.print(x+"\t");
 //        }
-        int [][] myComplexArray = {{5,2,1,3},{3,9,8,9},{5,7,12,7}};
-        OUTER_LOOP: for(int [] mySimpleArray: myComplexArray){
-            INNER_LOOP: for(int i=0; i<mySimpleArray.length; i++){
-                System.out.println(mySimpleArray[i]+"\t");
-            }
-            System.out.println();
+//        int [][] myComplexArray = {{5,2,1,3},{3,9,8,9},{5,7,12,7}};
+//        OUTER_LOOP: for(int [] mySimpleArray: myComplexArray){
+//            INNER_LOOP: for(int i=0; i<mySimpleArray.length; i++){
+//                System.out.println(mySimpleArray[i]+"\t");
+//            }
+//            System.out.println();
+//        }
+//do {
+//    int y = 1;
+//    System.out.println(y++ + " ");
+//}
+//while (y<=10);
+
+//        boolean keepGoing = true;
+//        int result=15, i=10;
+//        do {
+//            i--;
+//            if (i == 8) keepGoing = false;
+//            result -= 2;
+//        } while(keepGoing);
+//        System.out.println(result);
+
+//   int count =0;
+//   ROW_LOOP: for(int row=1; row<=3; row++)
+//       for (int col=1; col<=2; col++){
+//           if(row*col%2==0) continue ROW_LOOP;
+//           count ++;
+//       }
+//        System.out.println(count);
+
+        for(int i=0; i<10;){
+            i=i++;
+            System.out.println("Hello World");
         }
     }
 }
