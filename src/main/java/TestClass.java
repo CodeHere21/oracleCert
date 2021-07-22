@@ -1,4 +1,6 @@
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.Locale;
 
 public class TestClass {
     public static void main (String[] args) {
@@ -83,6 +85,22 @@ public class TestClass {
 //if(t.equals(s)) System.out.println("three");
 //if("Hello"==s) System.out.println("four");
 //if("Hello"==t) System.out.println("five");
+//String s="purr";
+//s.toUpperCase();
+//s.trim();
+//s.substring(1,3);
+//s+=" two";
+//        System.out.println(s.length());
+
+int[][] scores = new int[5][];
+Object[][][] cubbies=new Object[3][][5];//DOES NOT COMPILE
+String beans[]=new beans[6];//DOES NOT COMPILE
+java.util.Date[] dates[]=new java.util.Date[2][];
+int[][] types=new int[];//DOES NOT COMPILE
+int[][] java=new int[][];//DOES NOT COMPILE
+        ArrayList l=new ArrayList();
+        int length=l.capacity();
+
 
     }
 }
