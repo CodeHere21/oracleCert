@@ -258,3 +258,7 @@ OUTPUT: 3   0
             i=i++;
             System.out.println("Hello World");
         } // because even though i++ increment i by 1, it assigns it to the same value 0.
+72. Concatenation rules:
+-If both operands are numeric, + means addition;
+-If either operand is a String, + means concatenation;
+-The expression is evaluated left to right.
