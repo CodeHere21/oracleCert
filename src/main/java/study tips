@@ -265,3 +265,4 @@ OUTPUT: 3   0
 73. charAt() throws an exception if no match found. indexOf() returns -1 when no match is found.
 74. delete(int start, int end).
 75. StringBuilder b="rumble";// DOES NOT COMPILE
+76. set -resplaces not insert!

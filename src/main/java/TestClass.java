@@ -92,15 +92,21 @@ public class TestClass {
 //s+=" two";
 //        System.out.println(s.length());
 
-int[][] scores = new int[5][];
-Object[][][] cubbies=new Object[3][][5];//DOES NOT COMPILE
-String beans[]=new beans[6];//DOES NOT COMPILE
-java.util.Date[] dates[]=new java.util.Date[2][];
-int[][] types=new int[];//DOES NOT COMPILE
-int[][] java=new int[][];//DOES NOT COMPILE
-        ArrayList l=new ArrayList();
-        int length=l.capacity();
+//int[][] scores = new int[5][];
+//Object[][][] cubbies=new Object[3][][5];//DOES NOT COMPILE
+//String beans[]=new beans[6];//DOES NOT COMPILE
+//java.util.Date[] dates[]=new java.util.Date[2][];
+//int[][] types=new int[];//DOES NOT COMPILE
+//int[][] java=new int[][];//DOES NOT COMPILE
+//        ArrayList l=new ArrayList();
+//        int length=l.capacity();
 
+//        ArrayList<Integer> values=new ArrayList<>();
+//        values.add(4);
+//        values.add(5);
+//        values.set(1,6);
+//        values.remove(0);
+//        for(Integer v:values) System.out.println(v);
 
     }
 }
