@@ -262,3 +262,4 @@ OUTPUT: 3   0
 -If both operands are numeric, + means addition;
 -If either operand is a String, + means concatenation;
 -The expression is evaluated left to right.
+73. charAt() throws an exception if no match found. indexOf() returns -1 when no match is found.
