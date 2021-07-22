@@ -266,3 +266,5 @@ OUTPUT: 3   0
 74. delete(int start, int end).
 75. StringBuilder b="rumble";// DOES NOT COMPILE
 76. set -resplaces not insert!
+77. String walk6(int a) { if (a == 4) return ""; } // DOES NOT COMPILE
+This is tricky! There is return statement but it does not always get to run because of if -statement

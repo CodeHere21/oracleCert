@@ -1,6 +1,5 @@
 import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.Locale;
+import java.util.*;
 
 public class TestClass {
     public static void main (String[] args) {
@@ -108,5 +107,12 @@ public class TestClass {
 //        values.remove(0);
 //        for(Integer v:values) System.out.println(v);
 
+//        List<String> hex= Arrays.asList("30","8","3A","FF");
+//        Collections.sort(hex);
+//        for(String s:hex) System.out.println(s);
+//        int x = Collections.binarySearch(hex, "8");
+//        int y= Collections.binarySearch(hex, "3A");
+//        int z=Collections.binarySearch(hex,"4F");
+//        System.out.println(x+" "+y+" "+z);
     }
 }
