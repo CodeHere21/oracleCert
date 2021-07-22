@@ -1,3 +1,5 @@
+import java.time.LocalDate;
+
 public class TestClass {
     public static void main (String[] args) {
        // System.out.println("Hello World");
@@ -66,9 +68,12 @@ public class TestClass {
 //       }
 //        System.out.println(count);
 
-        for(int i=0; i<10;){
-            i=i++;
-            System.out.println("Hello World");
-        }
+//        for(int i=0; i<10;)
+//        StringBuilder sb=new StringBuilder("animals");
+//        sb.insert(7,"-");
+//        sb.insert(0,"-");
+//        sb.insert(4,"-");
+//        System.out.println(sb);
+        System.out.println(LocalDate.now());
     }
 }
