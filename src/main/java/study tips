@@ -270,3 +270,5 @@ OUTPUT: 3   0
 This is tricky! There is return statement but it does not always get to run because of if -statement
 78. Method name same as identifiers cannot start with number, be a reserved word.Identifier can contain letters,numbers, $,_;
 79. Static methods are not allowed to call instance methods from their body.
+80. Static final variables must be set EXACTLY once, and it must be in the declaration line or in a static
+initialization block.
