@@ -274,3 +274,4 @@ This is tricky! There is return statement but it does not always get to run beca
 initialization block.
 81. this.variableName can be called from any instance method in the class.
     I can access a private constructor with the main() method.
+82. variables can only be hidden and not overridden. same as static methods and public instance methods.
