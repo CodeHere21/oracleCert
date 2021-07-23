@@ -272,3 +272,5 @@ This is tricky! There is return statement but it does not always get to run beca
 79. Static methods are not allowed to call instance methods from their body.
 80. Static final variables must be set EXACTLY once, and it must be in the declaration line or in a static
 initialization block.
+81. this.variableName can be called from any instance method in the class.
+    I can access a private constructor with the main() method.
